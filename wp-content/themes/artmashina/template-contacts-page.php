@@ -105,63 +105,6 @@ get_header();
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="title-uppercase">REGIONAL DEALERS, AGENTS AND REPRESENTATIVES</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="border-block regional-dillers">
-                        <p class="small-title-bold">CHINA</p>
-                        <p class="ltd"><?php echo getMeta('company_partner_cn_contact_page'); ?></p>
-                        <address><p><strong>Office Add:</strong><span><?php echo getMeta('address_cn_contact_page'); ?></span></p></address>
-                        <p><strong>Tel: </strong> <a href="tel:<?php echo getMeta('phone_cn_contact_page'); ?>"><?php echo getMeta('phone_cn_contact_page'); ?></a></p>
-                        <p><strong>Fax: </strong> <a href="tel:<?php echo getMeta('fax_cn_contact_page'); ?>"><?php echo getMeta('fax_cn_contact_page'); ?></a></p>
-                        <p><strong>Mobile: </strong> <a href="<?php echo getMeta('mobile_cn_contact_page'); ?>"><?php echo getMeta('mobile_cn_contact_page'); ?></a></p>
-                        <p><strong>E-mail: </strong> <a href="<?php echo getMeta('email_cn_contact_page'); ?>"><?php echo getMeta('email_cn_contact_page'); ?> </a></p>
-                        <p><strong>Website: </strong> <a href="<?php echo getMeta('website_cn_contact_page'); ?>"><?php echo getMeta('website_cn_contact_page'); ?></a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="border-block regional-dillers">
-                        <p class="small-title-bold">ARGENTINA</p>
-                        <p class="ltd"><?php echo getMeta('company_partner_ag_contact_page'); ?></p>
-                        <address><p><strong>Office Add:</strong><span><?php echo getMeta('address_ag_contact_page'); ?></span></p></address>
-                        <p><strong>Tel: </strong> <a href="tel:<?php echo getMeta('phone_ag_contact_page'); ?>"><?php echo getMeta('phone_ag_contact_page'); ?></a></p>
-                        <p><strong>Fax: </strong> <a href="tel:<?php echo getMeta('fax_ag_contact_page'); ?>"><?php echo getMeta('fax_ag_contact_page'); ?></a></p>
-                        <p><strong>Mobile: </strong> <a href="tel:<?php echo getMeta('mobile_ag_contact_page'); ?>"><?php echo getMeta('mobile_ag_contact_page'); ?></a></p>
-                        <p><strong>E-mail: </strong> <a href="<?php echo getMeta('email_ag_contact_page'); ?>"><?php echo getMeta('email_ag_contact_page'); ?></a>, <a href="<?php echo getMeta('email__two_ag_contact_page'); ?>"><?php echo getMeta('email__two_ag_contact_page'); ?></a></p>
-                        <p><strong>Website: </strong> <a href="<?php echo getMeta('website_ag_contact_page'); ?>"><?php echo getMeta('website_ag_contact_page'); ?></a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 mobile-sidebar">
-                    <div class="form">
-                        <p class="title-form"><span>We will contact you within 24 hours</span> <a href="mailto:<?php echo getMeta('email_ru_contact_page'); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icons/feedback-icon-4.png" alt="">Email</a></p>
-                        <p><label>* Name:</label><input type="text" id="name" placeholder="Type in your name"><label>* E-mail:</label><input type="text" id="email" placeholder="Type in your Email address"></p>
-                        <p><label>* Country:</label><input type="text" id="country" placeholder="Country:">
-
-                            <label>* Tel:</label><input type="text" id="phone" placeholder="Tel">
-                        </p>
-                        <p>
-                            <label>* Message:</label>
-                            <span class="boxtextarea">
-                                <textarea placeholder="Enter the details of your inquiry such as product name, color, FOB, etc." id="comment"></textarea>
-                                <label><input type="checkbox" id="checkbox">Yes, I would like to receive future communications (such as email) from Logis-Geotech extended enterprise and dealer network.</label>
-                                <input type="submit" value="submit" onclick="SendForm();">
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </main>
     
 <script type="text/javascript">
