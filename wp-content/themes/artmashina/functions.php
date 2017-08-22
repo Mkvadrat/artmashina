@@ -1,7 +1,7 @@
 <?php
 /*
-Theme Name: Geotech
-Theme URI: http://geotechru.com/
+Theme Name: Artmashina
+Theme URI: http://artmashina.ru/
 Author: M2
 Author URI: http://mkvadrat.com/
 Description: Тема для сайта http://geotechru.com/
@@ -14,7 +14,7 @@ Version: 1.0
 ***********************************************************************************************************************************************************
 ***********************************************************************************************************************************************************/
 //Регистрируем название сайта
-function geotech_wp_title( $title, $sep ) {
+function artmashina_wp_title( $title, $sep ) {
 	global $paged, $page;
 
 	if ( is_feed() ) {
@@ -38,7 +38,7 @@ function geotech_wp_title( $title, $sep ) {
 
 	return $title;
 }
-add_filter( 'wp_title', 'geotech_wp_title', 10, 2 );
+add_filter( 'wp_title', 'artmashina_wp_title', 10, 2 );
 
 //Регистрируем меню
 if(function_exists('register_nav_menus')){
@@ -1194,7 +1194,7 @@ function SendForm(){
 			<table>
 			<tr>
 	
-			<td align="left"><h6 class="collapse" style="font-weight: 900; font-size: 14px; text-transform: uppercase; color: #ffffff;">Геотех</h6></td>
+			<td align="left"><h6 class="collapse" style="font-weight: 900; font-size: 14px; text-transform: uppercase; color: #ffffff;">Артмашина</h6></td>
 			<td align="right"><h6 class="collapse" style="font-weight: 900; font-size: 14px; text-transform: uppercase; color: #ffffff;">Обратная связь</h6></td>
 			</tr>
 			</table>
@@ -1474,8 +1474,3 @@ function getSearch(){
 }
 add_action('wp_ajax_getSearch', 'getSearch');
 add_action('wp_ajax_nopriv_getSearch', 'getSearch');
-
-
-
-
-

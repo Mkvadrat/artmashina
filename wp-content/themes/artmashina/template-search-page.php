@@ -1,8 +1,8 @@
 <?php
 /*
 Template name: Search page
-Theme Name: Geotech
-Theme URI: http://geotechru.com/
+Theme Name: Artmashina
+Theme URI: http://artmashina.ru/
 Author: M2
 Author URI: http://mkvadrat.com/
 Description: Тема для сайта http://geotechru.com/

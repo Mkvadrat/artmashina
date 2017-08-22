@@ -1,7 +1,7 @@
 <?php
 /*
-Theme Name: Geotech
-Theme URI: http://geotechru.com/
+Theme Name: Artmashina
+Theme URI: http://artmashina.ru/
 Author: M2
 Author URI: http://mkvadrat.com/
 Description: Тема для сайта http://geotechru.com/
@@ -22,7 +22,7 @@ Version: 1.0
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php echo geotech_wp_title('','', true, 'right'); ?></title>
+    <title><?php echo artmashina_wp_title('','', true, 'right'); ?></title>
     <base href="#">
     <!-- Bootstrap -->
     <link href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/bootstrap.min.css" rel="stylesheet">
